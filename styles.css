@@ -3,11 +3,11 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     /* grid-template-rows: 100px 150px 50px; adjusts row size manually better to use minmax*/
     grid-auto-rows: minmax(200px, auto); 
-    /* justify-items: center; align horizontally within the grid many options*/ 
-    /* align-items: center; align vertically within the grid many options*/
+    /* justify-content: space-around; */ 
+    grid-column-gap: 20px; 
+    grid-gap: 5px; /*can do column gap and row gap with modified syntax*/
 }
-    
-
+     
 .box-1 { 
     background: red; 
     grid-row: 2 / 3; 
