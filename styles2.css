@@ -1,0 +1,26 @@
+* { 
+    box-sizing: border-box;
+} 
+
+.container { 
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.wrapper { 
+    display: flex; 
+    background: black;
+    flex-direction: row;  
+    flex-wrap: wrap; 
+    /* flex-flow: row wrap; this would be the shorthand for above property & property values */ 
+    justify-content: space-between; 
+    /* align-items: flex-end; use this to align elements on the y-axis in container*/
+} 
+
+.box { 
+    width: 100px; 
+    height: 100px; 
+    background: red; 
+    border: 1px solid black;  
+    /* flexbox item properties such as grow,shrink and basis can be used mostly will use shorthand flex */
+}
